@@ -51,9 +51,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link" href="<?= base_url()?>/admin">Accueil</a></li>
-          <li><a class="nav-link active" href="admin/liste_catego">Liste catégorie</a></li>
-          <li><a class="nav-link" href="<?= base_url()?>admin/proposition">Statistique</a></li>
+          <li><a class="nav-link" href="<?= base_url()?>/Admin">Accueil</a></li>
+          <li><a class="nav-link active" href="Admin/liste_catego">Liste catégorie</a></li>
+          <li><a class="nav-link" href="<?= base_url()?>Admin/statistique">Statistique</a></li>
           <li><a class="getstarted" href="<?= base_url()?>home/logout"><i class="bi bi-door-open"></i> Log Out</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
